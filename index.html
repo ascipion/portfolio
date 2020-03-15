@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7BDQ0EXNB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F7BDQ0EXNB');
+</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width", initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<title>Gorillas</title>
 </head>
 <body>
 <a class="skip" href="#main">Jump to Content</a>
 <header>
-<h1>All About Gorillas</h1>
+	<div class="animate">
+		<h1>All About Gorillas</h1>
+	</div>
 </header>
 <nav>
+	<input type="checkbox" id="check">
+	<label for="check" class="checkbtn">
+		<i class="fas fa-bars"></i>
+	</label>
 	<ul class="nav">
 		<li><a class="current" href="index.html">Home</a></li>
 		<li><a href="species.html">Gorilla Species</a></li>
-		<li><a href="endangerment.html">Endangerment of Gorillas</a></li>
+		<li><a href="endangerment.html">Endangerment Status</a></li>
 		<li><a href="famous_gorillas.html">Famous Gorillas</a></li>
 	</ul>
 </nav>
 
-<header id="main" tabindex="-1">
+<main id="main" tabindex="1">
+<header>
 <h2>Gorillas</h2>
-<p>Gorillas are animals from the forests of central Sub-Saharan Africa.</p>
+<p>Gorillas are animals from the forests of central Sub-Saharan Africa.  They are herbivores and considered the largest primates in the world.  They can weight up to 372 pounds, and the largest gorilla ever recorded weighed 589 pounds!  They can also stand up to 6 feet tall, with a winspan up to 8.5 feet.  As one can imagine, they are extremely strong. They are estimated to be 4x - 10x stronger than the average human.  Their bite force of 1300 psi is double that of a lion's.  Genetically, they share up to 99% of their DNA with humans, making them the next closest living relatives to humans after chimpanzees and bonobos.</p>
 </header>
 
-<img src = "images/gorilla_distribution.png" alt = "Gorilla Distribution"/>
-<img src = "images/baby_gorilla.jpg" alt = "Baby Gorilla"/>
-<img src = "images/gorilla_pounding_chest.jpg" alt = "Gorilla Pounding Chest"/>
-
+<h3 id = "gallery">Gallery</h3>
+	<div class="gallery">
+		<img tabindex="0" class="resize" src = "images/gorilla_distribution.png" alt = "Gorilla Distribution"/>
+		<img tabindex="0" class="resize" src = "images/baby_gorilla.jpg" alt = "Baby Gorilla"/>
+		<img tabindex="0" class="resize" src = "images/gorilla_pounding_chest.jpg" alt = "Gorilla Pounding Chest"/>
+		<img tabindex="0" class="resize" src = "images/albino_gorilla.jpg" alt = "Albino Gorilla"/>
+		<img tabindex="0" class="resize" src = "images/gorilla_sleeping.jpg" alt = "Gorilla Sleeping"/>
+		<img tabindex="0" class="resize" src = "images/gorilla_climbing.jpg" alt = "Gorilla Climbing"/>
+		<img tabindex="0" class="resize" src = "images/gorilla_standing_up.jpg" alt = "Gorilla Standing Up"/>
+		<img tabindex="0" class="resize" src = "images/silverback_gorilla.jpg" alt = "Silverback Gorilla"/>
+		<img tabindex="0" class="resize" src = "images/gorilla_eating.jpg" alt = "Gorilla Eating"/>
+	</div>
+</main>
 <footer>
 Austin Scipione | University of Michigan - School of Information | MSI '21
 </footer>
