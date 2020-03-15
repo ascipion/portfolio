@@ -1,36 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7BDQ0EXNB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F7BDQ0EXNB');
+</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width", initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<title>Gorilla Species</title>
 </head>
 <body>
 <a class="skip" href="#main">Jump to Content</a>
 <header>
-<h1>All About Gorillas</h1>
+	<div class="animate">
+		<h1>All About Gorillas</h1>
+	</div>
 </header>
 <nav>
+	<input type="checkbox" id="check">
+	<label for="check" class="checkbtn">
+		<i class="fas fa-bars"></i>
+	</label>
 	<ul class="nav">
 		<li><a href="index.html">Home</a></li>
 		<li><a class="current" href="species.html">Gorilla Species</a></li>
-		<li><a href="endangerment.html">Endangerment of Gorillas</a></li>
+		<li><a href="endangerment.html">Endangerment Status</a></li>
 		<li><a href="famous_gorillas.html">Famous Gorillas</a></li>
 	</ul>
 </nav>
 
-<header id="main" tabindex="-1">
+<main id="main" tabindex="-1">
+
+<header>
 <h2>Species</h2>
 <p>There are four species of gorillas:</p>
 </header>
 
-<img src = "images/eastern_lowland_gorilla.jpg" alt = "Eastern Lowland Gorilla"/>
-<img src = "images/western_lowland_gorilla.jpg" alt = "Western Lowland Gorilla"/>
-<img src = "images/mountain_gorilla.jpg" alt = "Mountain Gorilla"/>
-<img src = "images/cross_river_gorilla.jpg" alt = "Cross River Gorilla"/>
+<div class="species">
+	<div tabindex="0" class="gorilla">
+		<header><h3>Eastern Lowland Gorilla</h3></header>
+		<img class="resize2" src = "images/eastern_lowland_gorilla.jpg" alt = "Eastern Lowland Gorilla"/>
+		<p>Also known as Grauer's gorilla, these are the largest of the four species.  They also tend to form and travel in large groups, which can be up to 30.  They're considered very sociable and peaceful as well.  There is concern over the lack of genetic variation and inbreeding with the eastern lowland gorillas.  Conservationists suggest to implement captive breeding programs.  The only eastern lowland gorilla outside of the wild can be found at the Antwerp Zoo in Belgium.</p>
+	</div>
 
+	<div tabindex="0" class="gorilla">
+		<header><h3>Western Lowland Gorilla</h3></header>
+		<img class="resize2" src = "images/western_lowland_gorilla.jpg" alt = "Western Lowland Gorilla"/>
+		<p>These are the smallest subspecies of gorillas in terms of size.  They are the only subspecies kept in zoos besides the one eastern lowland gorilla in Belgium.  They're known for their jet black hair that covers everything except their face, ears, hands, and feet.  Snowflake is a famous western lowland gorilla and the only albino gorilla ever found.  The western lowland gorillas travel in the smallest groups of the four subspecies, between 4 - 8 at a time.  </p>
+	</div>
 
+	<div tabindex="0" class="gorilla">
+		<header><h3>Cross River Gorilla</h3></header>
+		<img class="resize2" src = "images/cross_river_gorilla.jpg" alt = "Cross River Gorilla"/>
+		<p>These are the rarest of the four subspecies, as only about 250 remain in the world.  They are confined to the forested hills and mountains of the Cameroon-Nigeria border area at the headwaters of the Cross River.  From what is found about them, they tend to have smaller craniums, shorter skulls, and small ears.  Their nesting habits vary by the current season.  When it is dry they tend to nest on the ground and when it is wet they tend to nest in the trees.  The only known cross river gorilla in captivity died in 2016.</p>
+	</div>
+
+	<div tabindex="0" class="gorilla">
+		<header><h3>Mountain Gorilla</h3></header>
+		<img class="resize2" src = "images/mountain_gorilla.jpg" alt = "Mountain Gorilla"/>
+		<p>Mountain gorillas have thick and long hair compared to the other subspecies which allows them to live in colder temperatues.  They are most active between 6 AM and 6 PM.  Every evening they use the surrounding vegetation to from a nest to sleep in.  Mountain gorillas appear to be afraid of certain reptiles and insects like chameleons and caterpillars.  They don't like the water and will only cross streams without getting wet like by crossing over fallen logs.  The young tend to socialize and play around by wrestling and chasing.</p>
+	</div>
+</div>
+
+</main>
 <footer>
 Austin Scipione | University of Michigan - School of Information | MSI '21
 </footer>
