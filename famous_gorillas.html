@@ -1,35 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7BDQ0EXNB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F7BDQ0EXNB');
+</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width", initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<title>Famous Gorillas</title>
 </head>
 <body>
 <a class="skip" href="#main">Jump to Content</a>
 <header>
-<h1>All About Gorillas</h1>
+	<div class="animate">
+		<h1>All About Gorillas</h1>
+	</div>
 </header>
 <nav>
+	<input type="checkbox" id="check">
+	<label for="check" class="checkbtn">
+		<i class="fas fa-bars"></i>
+	</label>
 	<ul class="nav">
 		<li><a href="index.html">Home</a></li>
 		<li><a href="species.html">Gorilla Species</a></li>
-		<li><a href="endangerment.html">Endangerment of Gorillas</a></li>
+		<li><a href="endangerment.html">Endangerment Status</a></li>
 		<li><a class="current" href="famous_gorillas.html">Famous Gorillas</a></li>
 	</ul>
 </nav>
 
-<header id="main" tabindex="-1">
+<main id="main" tabindex="-1">
+
+<header>
 <h2>Famous Gorillas</h2>
-<p>Two of the most famous gorillas are Koko and Harambe.</p>
+<p>Three of the most famous gorillas are Koko, Harambe, and Snowflake.</p>
 </header>
 
-<img src = "images/koko.jpg" alt = "Koko"/>
-<img src = "images/harambe.jpg" alt = "Harambe"/>
+<div class="famous">
+	<div tabindex="0" class = "real1">
+		<header><h3>Koko</h3></header>
+		<img src = "images/koko.jpg" alt = "Koko"/>
+		<p>Koko was a Western Lowland Gorilla that was born at the San Francisco Zoo and lived in Woodside, California.  She was known for having learned over 1,000 signs of American Sign Language.  She understood about 2,000 words of spoken English.  This means her vocabulary was at the same level of a 3 year old human.  She died at the age of 46 in 2018.</p>
+	</div>
+
+	<div tabindex="0" class = "real2">
+		<header><h3>Snowflake</h3></header>
+		<img src = "images/snowflake.jpg" alt = "Albino Gorilla"/>
+		<p>Snowflake was a Western Lowland Gorilla that was born in 1964 and died in 2003.  He is the only known albino gorilla to exist.  He was kept at the Barcelona Zoo in Barcelona, Spain.  It is believed that his parents were uncle and niece, and the inbreeding lead to his albinism.  He fathered 22 offspring, none of which were albino like him.</p>
+	</div>
+
+	<div tabindex="0" class = "real3">
+		<header><h3>Harambe</h3></header>
+		<img src = "images/harambe.jpg" alt = "Harambe"/>
+		<p>Harambe was another Western Lowland Gorilla that was held at the Cincinnati Zoo.  A 3-year-old boy climbed over an enclosure and was grabbed by Harambe.  A zoo worker was scared for the little boy's life and fatally shot Harambe.  He was 17 years old.  Harambe's death went viral and caused controversy over the choice to kill him.  </p>
+	</div>
+
+</div>
+
+<header>
+<h2>In Popular Culture</h2>
+<p>Gorillas are quite popular in film and video games, including King Kong, Donkey Kong, and in the Planet of the Apes.</p>
+</header>
+
+<div class = "popular">
+	<div tabindex="0" class = "fake1">
+		<header><h3>King Kong</h3></header>
+		<img src = "images/king_kong.jpg" alt = "KingKong"/>
+		<p>King Kong is a giant movie monster from the movie of the same name, which was released in 1933.  In the movie, King Kong escapes capture and climbs the Empire State Building, only to fall after being attacked by airplanes with guns.  It is one of the most successful movies ever, with many spin-offs.  </p>
+	</div>
+
+	<div tabindex="0" class = "fake2">
+		<header><h3>Donkey Kong</h3></header>
+		<img src = "images/donkey_kong.png" alt = "Donkey Kong"/>
+		<p>Donkey Kong is a fictional gorilla formed in 1981 from the Donkey Kong and Mario video game franchises by Nintendo.  He is Mario's friendly rival.  He is often seen with his sidekick Diddy Kong.  He appears in several arcade and video games.  </p>
+	</div>
+
+	<div tabindex="0" class = "fake3">
+		<header><h3>Planet of the Apes</h3></header>
+		<img src = "images/planet_of_the_apes.jpg" alt = "Planet of the Apes"/>
+		<p>Planet of the Apes was a film made in 1968 with several recent spin-offs as well.  It is a sci-fi series where humans and intelligent apes clash for control.  In the movies, gorillas are police and military officers.  Different types of apes like chimpanzees and orangutans have different occupations like scientists and politicans.  </p>
+	</div>
+</div>
+
+</main>
 
 <footer>
 Austin Scipione | University of Michigan - School of Information | MSI '21
 </footer>
+
 </body>
 </html>
