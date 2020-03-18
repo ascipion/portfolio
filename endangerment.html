@@ -11,7 +11,7 @@
   gtag('config', 'G-F7BDQ0EXNB');
 </script>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width", initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<title>Endangerment of Gorillas</title>
@@ -26,6 +26,7 @@
 <nav>
 	<input type="checkbox" id="check">
 	<label for="check" class="checkbtn">
+		<textarea style="display:none;" id="check">.</textarea>
 		<i class="fas fa-bars"></i>
 	</label>
 	<ul class="nav">
@@ -90,23 +91,24 @@
 <div class="contact">
 	<h4>Contact Us for Donation Information to Help Fight Gorilla Endangerment</h4>
 	<div class="txtb">
-		<label>Full Name :</label>
-		<input type="text" name="" value="" placeholder="Please Enter Your Name">
+		<label for="fullname">Full Name :</label>
+		<input type="text" id="fullname" placeholder="Enter Your Name">
 	</div>
 
 	<div class="txtb">
-		<label>Email Address :</label>
-		<input type="email" name="" value="" placeholder="Please Enter Your Email">
+		<label for="emailaddress">Email Address :</label>
+		<input type="email" id="emailaddress" placeholder="Enter Your Email">
 	</div>
 
 	<div class="txtb">
-		<label>Phone Nuber :</label>
-		<input type="text" name="" value="" placeholder="Please Enter Your Phone Number">
+		<label for="phonenumber">Phone Nuber :</label>
+		<input type="text" id="phonenumber" placeholder="Enter Your Phone Number">
 	</div>
 
 	<div class="txtb">
-		<label>Message :</label>
-		<textarea></textarea>
+		<label for="message">Message :</label>
+		<input type="text" id="message" placeholder="Enter Your Message">
+
 	</div>
 
 	<a class="btn">Send</a>
@@ -116,7 +118,7 @@
 </main>
 
 <footer>
-Austin Scipione | University of Michigan - School of Information | MSI '21
+Austin Scipione | University of Michigan - School of Information | MSI '21 |<br>Information on gorillas retrieved from <a href="https://www.worldwildlife.org/species/gorilla" style="color:white;text-decoration: underline;">https://www.worldwildlife.org/species/gorilla</a>
 </footer>
 </body>
 </html>
